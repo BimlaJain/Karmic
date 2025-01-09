@@ -1,10 +1,12 @@
 import React from 'react'
 import UpcomingProjects from './components/UpcomingProjects'
+import Services from './components/Services'
 
 const App = () => {
   return (
     <div>
-      <UpcomingProjects/>
+      <UpcomingProjects />
+      <Services/>
     </div>
   )
 }
