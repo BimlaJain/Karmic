@@ -16,9 +16,11 @@ module.exports = {
         },
       },
       colors: {
-        "light-gray": '#b3b2b6',
-        "dark-black": "#01000B",
-
+        'rich-black': "#01000B",
+        'light-purple': "#BF97FF3D",
+        'blue': "#3A3EF5",
+        'sky-blue': "#32C8F1",
+        'light-blue': "#34A4F2"
       },
       fontFamily: {
         'sunflower': "'Sunflower', sans-serif",
@@ -29,6 +31,9 @@ module.exports = {
         "custom-xl": '56px',
         "custom-3xl": '32px',
         "custom-4xl": '34px',
+      },
+      backgroundImage: {
+        'hero-layer': "url('../public/assets/images/webp/hero-gray-layer.webp')",
       },
       lineHeight: {
         'custom-sm': '108%',

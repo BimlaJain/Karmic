@@ -1,7 +1,7 @@
 import React from 'react';
-import { NAV_DATA_LINK } from '../utils/helper';
+import { NAV_DATA_LINK} from '../utils/helper';
 import { useEffect, useState } from 'react';
-import CustomButton from '../common/CommonButton';
+import CommonButton from '../common/CommonButton';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,17 +34,17 @@ const Header = () => {
             <div className="container">
                 <div className="flex justify-between items-center lg:h-[100px] sm:h-20">
                     <a href="/">
-                        <img className='max-w-[192px] max-xl:pt-3' src="./assets/images/png/logo.png" alt="nav-logo" />
+                        <img className='lg:max-w-[156px] max-w-[120px] pointer-events-none' src="/assets/images/webp/nav-logo.webp" alt="nav-logo" />
                     </a>
                     <div className='lg:block hidden'>
                         <div className="flex gap-8 items-center">
                             {NAV_DATA_LINK.map((obj, index) => (
                                 <a onClick={toggleMenu}
                                     key={index}
-                                    className="font-normal hover:text-blue-500 transition-all duration-500 text-base leading-custom-base text-white"
-                                    href={obj.id}
+                                    className="font-normal hover:font-bold transition-all duration-500 text-base leading-5 text-white"
+                                    href={obj.href}
                                 >
-                                    {obj.title}
+                                    {obj.data}
                                 </a>
                             ))}
                         </div>
@@ -55,14 +55,14 @@ const Header = () => {
                     >
                         {isMenuOpen ? (
                             <>
-                                <span className="h-[4px] absolute top-3 w-full bg-white transform rotate-45 transition duration-300"></span>
-                                <span className="h-[4px] absolute top-3 w-full bg-white transform -rotate-45 transition duration-300"></span>
+                                <span className="h-[3px] absolute top-3 w-full bg-white transform rotate-45 transition duration-300"></span>
+                                <span className="h-[3px] absolute top-3 w-full bg-white transform -rotate-45 transition duration-300"></span>
                             </>
                         ) : (
                             <>
-                                <span className="h-[4px] w-full bg-white"></span>
-                                <span className="h-[4px] w-full bg-white"></span>
-                                <span className="h-[4px] w-full bg-white"></span>
+                                <span className="h-[3px] w-full bg-white"></span>
+                                <span className="h-[3px] w-full bg-white"></span>
+                                <span className="h-[3px] w-full bg-white"></span>
                             </>
                         )}
                     </div>
@@ -72,15 +72,14 @@ const Header = () => {
                                 {NAV_DATA_LINK.map((obj, index) => (
                                     <a onClick={toggleMenu}
                                         key={index}
-                                        className="font-normal hover:text-blue-500 transition-all duration-500 text-base leading-custom-base text-white"
-                                        href={obj.id}
-                                    >
-                                        {obj.title}
+                                        className="font-normal hover:font-bold transition-all duration-500 text-base leading-5 text-white"
+                                        href={obj.href}>
+                                        {obj.data}
                                     </a>
                                 ))}
                             </div>
                         </div>
-                        <CustomButton classStyle={'sm:py-[13.5px] sm:px-8 py-3 p-6'} text={'Get Started'} />
+                        <a onClick={toggleMenu} href="#home"><CommonButton classStyle={'!py-[10px] !px-[34px] bg-white hover:bg-gray-500 transition-all duration-500'} text={'Connect Wallet'} /></a>
                     </div>
                 </div>
             </div>

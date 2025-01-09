@@ -1,24 +1,33 @@
 import React from 'react'
-import Header from '../common/Header.'
-import CustomButton from '../common/CommonButton'
+import Description from '../common/Description'
+import CommonButton from '../common/CommonButton'
+import { ButtonArrow} from '../utils/icons'
+import Header from '../common/Header'
 
 const Hero = () => {
     return (
-        <div className='bg-hero bg-cover bg-no-repeat bg-center max-xl:h-[840.23px] relative'>
-            <img src="./assets/images/png/side-img.png" alt="side-img" className='absolute left-0 top-[13%] pointer-events-none' />
-            <Header />
-            <div className='container relative'>
-                <div className='flex lg:flex-row flex-col gap-5 max-lg:pt-12'>
-                    <div className='lg:w-[705px] w-full flex flex-col justify-center items-center xl:pt-[166px] xl:pb-[250.23px]'>
-                        <h1 className='xl:text-7xl xl:leading-custom-6xl text-white text-center lg:text-6xl md:text-5xl text-3xl font-bold'>Innovate, Automate, Accelerate </h1>
-                        <p className='sm:text-xl sm:leading-custom-3xl text-base font-normal text-center text-white sm:pt-6 pt-5'>Next Gen AI Automation to Scale Your Business.</p>
-                        <CustomButton text={'Book A Call Now!'} classStyle={'sm:py-[19.5px] sm:px-[38.5px] py-4 px-7 sm:mt-6 mt-5'} />
+        <div className='lg:bg-hero-layer bg-no-repeat max-lg:bg-center bg-cover lg:min-h-[726px] relative max-lg:bg-light-gray' id='home'>
+            <div className='container'>
+                <Header/>
+                <div className='lg:flex-row flex-col flex justify-between lg:pt-[173px] md:pt-20 pt-12 gap-5'>
+                    <div className='lg:w-[570px] w-full flex flex-col justify-center'>
+                        <div className='flex flex-col justify-center max-lg:items-center'>
+                            <h1 className='lg:text-custom-5xl lg:leading-custom-5xl sm:text-5xl sm:leading-custom-4xl text-4xl text-white uppercase lg:max-w-[570px] max-lg:text-center'>We are believers decentralization <img className='ms-[142px] max-w-[158px] w-full lg:block hidden' src="/assets/images/webp/hero-second-line.webp" alt="second-line" /> And Web3.
+                                <img className='ms-[111px] max-w-[169px] w-full lg:block hidden' src="./assets/images/webp/hero-first-line.webp" alt="first-line" />
+                            </h1>
+                            <Description classStyle={'lg:max-w-[495px] pt-1 max-lg:text-center'} text={'Vulputate tristique habitant neque, accumsan. Vitae ultrices nulla erat nibh aliquam, quis tempus volutpat arcu. Leo convallis luctus dis malesuada turpis non consequat ac.'} />
+                            <div className='flex  sm:pt-10 pt-5 sm:gap-8 gap-5'>
+                                <CommonButton classStyle="!py-[9.2px] !px-6 bg-white flex items-center gap-[10px] hover:bg-gray-500 group transition-all duration-500" text="Get Started" customClass="!block fill-black group-hover:translate-x-0.5 transition-all duration-500" />
+                                <CommonButton text="Read More" classStyle="!py-[9.2px] !px-[31px] font-thin bg-transparent text-white border border-white hover:bg-gray-500 hover:text-black transition-all duration-500" />
+                            </div>
+
+                        </div>
                     </div>
-                    <div className='absolute right-[-57px] top-[60px] xl:block hidden'>
-                        <img className='max-w-[470px] h-[559px] w-full pointer-events-none move-x duration-500' src="./assets/images/png/robot.png" alt="hero-image" />
+                    <div className='lg:w-[398px] w-full flex max-lg:justify-center max-lg:items-center'>
+                        <img className='max-w-[398px] w-full' src="./assets/images/webp/hero-image.webp" alt="hero-image" />
                     </div>
-                    <div className='xl:hidden flex justify-center'>
-                        <img className='w-full max-w-[470px] pointer-events-none move-x duration-700  ' src="./assets/images/png/robot.png" alt="hero-image" />
+                    <div className='absolute bottom-[45px] left-[50%] lg:block hidden'>
+                        <ButtonArrow />
                     </div>
                 </div>
             </div>
