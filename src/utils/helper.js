@@ -35,15 +35,48 @@ export const UPCOMING_PROJECTS = [
         category: 'NFT',
     },
 ];
-export const CARDS_LIST = [
-    "/assets/images/png/projects-img-one.png",
-    "/assets/images/png/projects-img-two.png",
-    "/assets/images/png/projects-img-three.png",
-    "/assets/images/png/projects-img-four.png",
-    "/assets/images/png/projects-img-five.png",
-    "/assets/images/png/projects-img-six.png",
-    "/assets/images/png/projects-img-seven.png",
-    "/assets/images/png/projects-img-eight.png",
+
+export const PROJECTS_LISTS = [
+    {
+        image: "/assets/images/png/projects-img-one.png",
+        title: 'Nubbies'
+    },
+
+    {
+        image: "/assets/images/png/projects-img-two.png",
+        title: 'Nubbies'
+    },
+
+    {
+        image: "/assets/images/png/projects-img-three.png",
+        title: 'Nubbies'
+    },
+
+    {
+        image: "/assets/images/png/projects-img-four.png",
+        title: 'Nubbies'
+    },
+
+    {
+        image: "/assets/images/png/projects-img-five.png",
+        title: 'Nubbies'
+    },
+
+    {
+        image: "/assets/images/png/projects-img-six.png",
+        title: 'Nubbies'
+    },
+
+
+    {
+        image: "/assets/images/png/projects-img-seven.png",
+        title: 'Nubbies'
+    },
+
+    {
+        image: "/assets/images/png/projects-img-eight.png",
+        title: 'Nubbies'
+    },
 ]
 export const SERVICES_DATA = [
     {

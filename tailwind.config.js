@@ -16,7 +16,8 @@ module.exports = {
         },
       },
       colors: {
-        'light-gray': "#3B3B3B"
+        'light-gray': "#3B3B3B",
+        'dark-gray': "#4d4d4d",
       },
       fontFamily: {
         'sunflower': "'Sunflower', sans-serif",
@@ -35,7 +36,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero-layer': "url('/public/assets/images/webp/hero-gray-layer.webp')",
-        whiteImg: "url('/public/assets/images/png/bg-white.png')",
+        'whiteImg': "url('/public/assets/images/png/bg-white.png')",
       },
     },
   },

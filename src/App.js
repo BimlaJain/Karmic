@@ -5,9 +5,9 @@ import Hero from './components/Hero'
 import Header from './components/Header'
 import PreLoader from './common/PreLoader'
 import BackToTop from './common/BackToTop'
-// import Footer from './components/Footer'
-// import Values from './components/Values'
-// import Karmic from './components/WhoIsKarmic'
+import Footer from './components/Footer'
+import Values from './components/Values'
+import Karmic from './components/WhoIsKarmic'
 import Projects from './components/Projects'
 
 const App = () => {
@@ -19,9 +19,9 @@ const App = () => {
       <UpcomingProjects />
       <Services />
       <Projects/>
-      {/* <Karmic/>
+      <Karmic/>
       <Values/>
-      <Footer/> */}
+      <Footer/>
       <BackToTop/>
     </div>
   )
