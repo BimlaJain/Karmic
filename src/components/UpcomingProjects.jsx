@@ -45,7 +45,7 @@ const UpcomingProjects = () => {
                         </div>
                     ))}
                 </div>
-                <button className="mt-12 px-8 py-3 border flex justify-center mx-auto items-center text-white font-sunflower font-medium text-base rounded-full transition-all duration-700 ease-in-out hover:bg-gray-700">
+                <button className="mt-12 px-8 py-3 border flex justify-center mx-auto items-center text-white font-sunflower font-medium text-base rounded-full transition-all duration-700 ease-in-out hover:bg-white hover:text-black">
                     View All
                 </button>
             </div>
