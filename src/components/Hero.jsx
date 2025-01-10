@@ -17,7 +17,7 @@ const Hero = () => {
                             </h1>
                             <Description classStyle={'lg:max-w-[495px] pt-1 max-lg:text-center'} text={'Vulputate tristique habitant neque, accumsan. Vitae ultrices nulla erat nibh aliquam, quis tempus volutpat arcu. Leo convallis luctus dis malesuada turpis non consequat ac.'} />
                             <div className='flex  sm:pt-10 pt-5 sm:gap-8 gap-5'>
-                                <CommonButton classStyle="!py-[9.2px] !px-6 bg-white flex items-center gap-[10px] hover:bg-gray-500 group transition-all duration-500" text="Get Started" customClass="!block fill-black group-hover:translate-x-0.5 transition-all duration-500" />
+                                <CommonButton classStyle="!py-[9.2px] !px-6 bg-white !text-black flex items-center gap-[10px] hover:bg-gray-500 group transition-all duration-500" text="Get Started" customClass="!block fill-black group-hover:translate-x-0.5 transition-all duration-500" />
                                 <CommonButton text="Read More" classStyle="!py-[9.2px] !px-[31px] font-thin bg-transparent text-white border border-white hover:bg-gray-500 hover:text-black transition-all duration-500" />
                             </div>
 
@@ -27,7 +27,7 @@ const Hero = () => {
                         <img className='max-w-[398px] w-full' src="./assets/images/webp/hero-image.webp" alt="hero-image" />
                     </div>
                     <div className='absolute bottom-[45px] left-[50%] lg:block hidden'>
-                        <ButtonArrow />
+                       <img src="./assets/images/svg/dowm-arrow.svg" alt="down-arrow" />
                     </div>
                 </div>
             </div>

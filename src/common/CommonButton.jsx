@@ -1,14 +1,13 @@
-
 import React from 'react';
 import { ButtonArrow } from '../utils/icons';
 
-const CommonButton = (props) => {
+const CommonButton = ({ text, classStyle, customClass }) => {
     return (
         <button
-            className={`bg-white text-black lg:py-3 py-2 xl:px-8 lg:px-7 px-5 rounded-[82px] font-bold lg:text-base text-sm leading-[20px] ${props.className}`}
+            className={`text-black rounded-[82px] font-bold sm:text-base text-sm leading-5 ${classStyle}`}
         >
-            {props.text.classStyle}
-            <span className={`${props.customClass} `}>
+            {text}
+            <span className={`${customClass} hidden`}>
                 <ButtonArrow />
             </span>
         </button>

@@ -16,11 +16,7 @@ module.exports = {
         },
       },
       colors: {
-        'rich-black': "#01000B",
-        'light-purple': "#BF97FF3D",
-        'blue': "#3A3EF5",
-        'sky-blue': "#32C8F1",
-        'light-blue': "#34A4F2"
+        'light-gray': "#3B3B3B"
       },
       fontFamily: {
         'sunflower': "'Sunflower', sans-serif",
@@ -32,19 +28,14 @@ module.exports = {
         "custom-3xl": '32px',
         "custom-4xl": '34px',
       },
-      backgroundImage: {
-        'hero-layer': "url('../public/assets/images/webp/hero-gray-layer.webp')",
-      },
       lineHeight: {
         'custom-sm': '108%',
         'custom-xl': '121%',
         'custom-2xl': '180%',
       },
       backgroundImage: {
-        "custom-gradient": "linear-gradient(180deg, rgba(59, 40, 246, 0.22) 0%, rgba(59, 40, 246, 0) 100%)",
-      },
-      borderImage: {
-        gradient: "linear-gradient(103.52deg, #3A3EF5 18.99%, #32C8F1 82.34%)",
+        'hero-layer': "url('/public/assets/images/webp/hero-gray-layer.webp')",
+        'project-bg': "url('/public/assets/images/webp/project-bg.webp')",
       },
     },
   },
