@@ -2,13 +2,13 @@ import React from 'react'
 import Description from '../common/Description'
 import CommonButton from '../common/CommonButton'
 import { ButtonArrow} from '../utils/icons'
-import Header from '../common/Header'
+// import Header from './Header'
 
 const Hero = () => {
     return (
-        <div className='lg:bg-hero-layer bg-no-repeat max-lg:bg-center bg-cover lg:min-h-[726px] relative max-lg:bg-light-gray' id='home'>
+        <div className='lg:bg-hero-layer bg-no-repeat max-lg:bg-center bg-cover lg:min-h-[748px] relative max-lg:bg-light-gray' id='home'>
             <div className='container'>
-                <Header/>
+                {/* <Header/> */}
                 <div className='lg:flex-row flex-col flex justify-between lg:pt-[173px] md:pt-20 pt-12 gap-5'>
                     <div className='lg:w-[570px] w-full flex flex-col justify-center'>
                         <div className='flex flex-col justify-center max-lg:items-center'>
