@@ -4,10 +4,10 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     return (
-        <div className='lg:pt-[172px] pt-16'>
+        <div className='lg:pt-[60px] pt-12'>
             <div className="container">
-                <img src="./assets/images/png/footer-logo.png" alt="footer-logo" className='pb-[69px] flex mx-auto' />
-                <div className="flex items-center justify-center gap-6  pb-4">
+                <img src="./assets/images/png/footer-logo.png" alt="footer-logo" className='pb-[69px] flex mx-auto max-md:w-[160px]' />
+                <div className="flex items-center justify-center gap-6 pb-4">
                     <a
                         href="https://www.instagram.com/"
                         target="_blank"

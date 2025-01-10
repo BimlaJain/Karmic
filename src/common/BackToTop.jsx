@@ -13,7 +13,7 @@ const BackToTop = () => {
     return (
         <div>
             {scrollTop && (
-                <button onClick={scrollHandler} className='fixed right-[10px] bottom-[10px]'><img className='size-8 animate-bounce' src="./assets/images/png/backtotop.png" alt="back to top" /></button>)
+                <button onClick={scrollHandler} className='fixed right-[10px] bottom-[10px]'><img className='size-8 animate-bounce bg-white rounded-lg' src="./assets/images/svg/back-to-top.svg" alt="back to top" /></button>)
             }
         </div>
     )

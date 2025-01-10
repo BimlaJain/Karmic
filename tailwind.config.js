@@ -35,7 +35,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero-layer': "url('/public/assets/images/webp/hero-gray-layer.webp')",
-        'project-bg': "url('/public/assets/images/webp/project-bg.webp')",
+        whiteImg: "url('/public/assets/images/png/bg-white.png')",
       },
     },
   },

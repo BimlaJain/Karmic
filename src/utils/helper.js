@@ -35,7 +35,16 @@ export const UPCOMING_PROJECTS = [
         category: 'NFT',
     },
 ];
-
+export const CARDS_LIST = [
+    "/assets/images/png/projects-img-one.png",
+    "/assets/images/png/projects-img-two.png",
+    "/assets/images/png/projects-img-three.png",
+    "/assets/images/png/projects-img-four.png",
+    "/assets/images/png/projects-img-five.png",
+    "/assets/images/png/projects-img-six.png",
+    "/assets/images/png/projects-img-seven.png",
+    "/assets/images/png/projects-img-eight.png",
+]
 export const SERVICES_DATA = [
     {
         circle: "/assets/images/png/white-circle.png",
@@ -93,5 +102,29 @@ export const SERVICES_DATA = [
         description:
             "NFT solutions from start to finish. From Initial Concept to Secondary market listings, we will guide you every step of the way to ensure your project is a successfully and seemlessly delivered come mint day.",
         content: [] ,
+    },
+];
+export const VALUES_DATA = [
+    {
+        circle: "/assets/images/png/white-circle.png",
+        image: "/assets/images/svg/w3.svg",
+        title: "W3 ",
+        description:
+            "Not your average degens. Karmic is lead by a team of Industry professionals with extensive backgrounds in web3 and web2. We are actively involved in all that we do. Boots on the ground. We know the ins and outs of the space, because we are building it. ",
+        content: [],
+    },
+    {
+        circle: "/assets/images/png/white-circle.png",
+        image: "/assets/images/svg/blockchain.svg",
+        title: "Blockchain Agnostic ",
+        description: "Our team of seasoned developers will help you to launch your project on the network of your choosing- be it ethereum, solana, polygon, etc.."
+    },
+    {
+        circle: "/assets/images/png/white-circle.png",
+        image: "/assets/images/svg/trust.svg",
+        title: "Trust",
+        description:
+            "Trustless and results driven development backed by a portfolio of success. You're the captain of the ship, and the keys are always in your hands.",
+        content: [],
     },
 ];
