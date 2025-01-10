@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import Header from './components/Header'
 import PreLoader from './common/PreLoader'
 import BackToTop from './common/BackToTop'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Hero/>
       <UpcomingProjects />
       <Services />
+      <Footer/>
       <BackToTop/>
     </div>
   )
