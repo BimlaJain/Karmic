@@ -15,10 +15,8 @@ const Projects = () => {
                 </div>
                 <CommonHeading
                     text={'projects'}
-                    classStyle={'!pb-6 !text-black'}
-                />  
+                    classStyle={'!pb-6 !text-black'}/>  
                 <p className='text-base max-w-[532px] mx-auto text-center leading-6 font-normal font-space max-lg:pt-4'>Id nam massa sit ut purus tortor est ultrices nunc. Ipsum, nibh egestas vehicula tellus. Molestie adipiscing diam nibh lectus. Magna id nisl quis vestibulum rhoncus.</p>
-
                 <div className='flex flex-wrap pt-[22px] max-md:pt-4 justify-center'>
                     {PROJECTS_LISTS.map((obj, i) => (
                         <div
