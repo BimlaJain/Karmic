@@ -4,7 +4,7 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     return (
-        <div id='about' className='lg:pt-[60px] pt-12'>
+        <div id='about' className='lg:pt-[60px] md:pt-8 pt-6'>
             <div className="container">
                 <img src="./assets/images/png/footer-logo.png" alt="footer-logo" className='pb-[69px] flex mx-auto max-md:w-[160px]' />
                 <div className="flex items-center justify-center gap-6 pb-4">
@@ -42,7 +42,7 @@ const Footer = () => {
                     </a>
                 </div>
             </div>
-            <div className="border border-white w-full"></div>
+            <div className="border-[0.5px] border-white w-full"></div>
             <p className="text-white opacity-70 text-center max-sm:text-sm pt-4 pb-[18px]">
                 © Karmic labs {currentYear}
             </p>

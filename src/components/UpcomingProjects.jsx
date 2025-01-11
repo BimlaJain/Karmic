@@ -7,7 +7,7 @@ const UpcomingProjects = () => {
     
 
     return (
-        <div className="lg:pt-24 md:pt-20 pt-16 lg:pb-[136px] md:pb-20 pb-16">
+        <div className="lg:pt-24 md:pt-20 pt-16 xl:pb-[136px] lg:pb-24 md:pb-20 pb-16">
             <div className="container relative">
                 <div className="absolute lg:top-[-4%] lg:left-[33%] md:top-[-3%] md:left-[28%] left-[15%] top-[-1%]">
                     <img

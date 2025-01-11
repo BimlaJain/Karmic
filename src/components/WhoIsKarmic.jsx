@@ -2,7 +2,7 @@ import React from 'react'
 import CommonHeading from '../common/CommonHeading'
 const Karmic = () => {
     return (
-        <div className=' pb-[156px] pt-[81px]'>
+        <div className=' xl:pb-[156px] lg:pb-[120px] sm:pb-24 pb-16 xl:pt-[81px] md:pt-[50px] '>
             <div className="container relative">
                 <div className="absolute lg:top-[-4%] lg:left-[33%] md:top-[-3%] md:left-[28%] left-[15%] top-[-1%]">
                     <img

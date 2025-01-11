@@ -18,7 +18,7 @@ const Services = () => {
                 />
                 <div className='flex flex-row flex-wrap -mx-3 xl:pt-[77px] md:pt-12 pt-8'>
                     {SERVICES_DATA.map((service, index) => (
-                        <div key={index} className='lg:w-[33.33%] sm:w-[50%] w-full px-[10.5px] lg:mb-10 sm:mb-6 mb-5 relative group'>
+                        <div key={index} className='lg:w-[33.33%] sm:w-[50%] w-full px-[10.5px] xl:mb-10 lg:mb-7 sm:mb-6 mb-5 relative group'>
                             <div className='absolute -top-[18px] xl:-right-1 -right-2 group-hover:opacity-100 opacity-0 transition-opacity duration-700 -z-10'>
                                 <img src={service.circle} alt="circle" className='xl:w-[73px] xl:h-[74px] size-16 shadow-custom-2xl' />
                             </div>
@@ -28,7 +28,7 @@ const Services = () => {
                                     alt={service.title}
                                     className="size-10"
                                 />
-                                <h3 className="font-bold text-xl leading-custom-4xl text-white lg:pt-5 pt-4 pb-[6px]">
+                                <h3 className="font-bold text-xl text-white lg:pt-5 pt-4 pb-[6px]">
                                     {service.title}
                                 </h3>
                                 {service.description && (

@@ -35,7 +35,7 @@ const Projects = () => {
                                     alt='projects-image'
                                 />
                                 <div className='absolute min-h-[47px] flex justify-center items-center shadow-shadow-2xl bg-dark-gray transition-all duration-300 w-full group-hover:bottom-0 bottom-[-50%]'>
-                                    <p className='text-white text-base leading-5 sm:text-xl sm:leading-custom-3xl font-bold'>
+                                    <p className='text-white text-base leading-5 sm:text-xl font-bold'>
                                         {obj.title}
                                     </p>
                                 </div>
