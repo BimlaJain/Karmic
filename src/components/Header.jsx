@@ -34,7 +34,7 @@ const Header = () => {
             <div className="container">
                 <div className="flex justify-between items-center">
                     <a href="/">
-                        <img className='lg:max-w-[156px] max-w-[120px] pointer-events-none' src="/assets/images/webp/nav-logo.webp" alt="nav-logo" />
+                        <img className='lg:max-w-[156px] max-w-[120px] pointer-events-none' src="./assets/images/png/nav-logo.png" alt="nav-logo" />
                     </a>
                     <div className='lg:block hidden'>
                         <div className="flex gap-8 items-center">

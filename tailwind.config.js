@@ -35,7 +35,7 @@ module.exports = {
         'custom-2xl': '180%',
       },
       backgroundImage: {
-        'hero-layer': "url('/public/assets/images/webp/hero-gray-layer.webp')",
+        'hero-layer': "url('/public/assets/images/png/hero-gray-layer.png')",
         'whiteImg': "url('/public/assets/images/png/bg-white.png')",
       },
     },
