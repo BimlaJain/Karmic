@@ -10,13 +10,13 @@ const PreLoader = () => {
     }, [])
 
     return (
-        <div>
+        <>
             {preLoader ? (
                 <div className='h-screen w-full bg-black fixed bottom-0 top-0 right-0 z-30 flex justify-center items-center overflow-hidden'>
                     <img src="./assets/images/png/footer-logo.png" alt="preloader" className='duration-700 animate-bounce relative z-50' />
                 </div>
             ) : null}
-        </div>
+        </>
     )
 }
 

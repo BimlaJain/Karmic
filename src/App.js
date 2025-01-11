@@ -12,7 +12,7 @@ import Projects from './components/Projects'
 
 const App = () => {
   return (
-    <div>
+    <>
       <PreLoader/>
       <Header/>
       <Hero/>
@@ -23,7 +23,7 @@ const App = () => {
       <Values/>
       <Footer/>
       <BackToTop/>
-    </div>
+    </>
   )
 }
 

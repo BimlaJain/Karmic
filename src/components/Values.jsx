@@ -4,7 +4,7 @@ import CommonHeading from '../common/CommonHeading'
 
 const Values = () => {
     return (
-        <div>
+        <>
             <div className='container relative'>
                 <div className="absolute lg:top-[-4%] lg:left-[33%] md:top-[-3%] md:left-[28%] left-[15%] top-[-1%]">
                     <img
@@ -41,7 +41,7 @@ const Values = () => {
                     ))}
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 
