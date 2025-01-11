@@ -25,7 +25,9 @@ const Hero = () => {
                         <img className='max-w-[398px] w-full pointer-events-none' src="./assets/images/png/hero-image.png" alt="hero-image" />
                     </div>
                     <div className='absolute bottom-[58px] left-[50%] lg:block hidden'>
-                       <img src="./assets/images/svg/dowm-arrow.svg" alt="down-arrow" />
+                        <a href="#upcomingprojects">
+                            <img src="./assets/images/svg/dowm-arrow.svg" alt="down-arrow" />
+                            </a>
                     </div>
                 </div>
             </div>
