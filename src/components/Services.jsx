@@ -15,7 +15,6 @@ const Services = () => {
                 </div>
                 <CommonHeading
                     text={'Services'}
-                    classStyle={'lg:!pb-12 md:!pb-10 !pb-8'}
                 />
                 <div className='flex flex-row flex-wrap -mx-3 xl:pt-[77px] md:pt-12 pt-8'>
                     {SERVICES_DATA.map((service, index) => (

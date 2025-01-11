@@ -30,9 +30,9 @@ const Header = () => {
     }, [isMenuOpen])
 
     return (
-        <div className="sm:pb-7 py-4 flex items-center lg:h-[100px] sm:h-20">
+        <div className=" pt-4 flex items-center">
             <div className="container">
-                <div className="flex justify-between items-center lg:h-[100px] sm:h-20">
+                <div className="flex justify-between items-center">
                     <a href="/">
                         <img className='lg:max-w-[156px] max-w-[120px] pointer-events-none' src="/assets/images/webp/nav-logo.webp" alt="nav-logo" />
                     </a>
@@ -79,7 +79,7 @@ const Header = () => {
                                 ))}
                             </div>
                         </div>
-                        <a onClick={toggleMenu} href="#home"><CommonButton classStyle={'!py-[10px] !px-[34px] !bg-white !text-black hover:!bg-black hover:!text-white !border-white !border !rounded-full !transition-all !duration-500'} text={'Connect Wallet'} /></a>
+                        <a onClick={toggleMenu} href="#home"><CommonButton classStyle={'!py-[9px] !px-[25px] !bg-white !text-black hover:!bg-black hover:!text-white !border-white !border !rounded-full !transition-all !duration-500'} text={'Connect Wallet'} /></a>
                     </div>
                 </div>
             </div>

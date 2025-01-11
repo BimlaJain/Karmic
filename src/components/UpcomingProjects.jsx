@@ -29,7 +29,7 @@ const UpcomingProjects = () => {
                             <img
                                 src={project.image}
                                 alt={project.title}
-                                className="pb-4"
+                                className="pb-4 xl:max-w-[231px]"
                             />
                             <div className="flex justify-between">
                                 <p className="font-sunflower font-medium text-xl leading-custom-xl text-white">
