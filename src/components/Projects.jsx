@@ -10,7 +10,7 @@ const Projects = () => {
                     <img
                         src="./assets/images/png/black-heading-line.png"
                         alt="line"
-                        className="md:w-[344px] w-[250px]"
+                        className="md:w-[344px] w-[250px] pointer-events-none"
                     />
                 </div>
                 <CommonHeading
@@ -30,7 +30,7 @@ const Projects = () => {
                                     }`}
                             >
                                 <img
-                                    className=" w-full rounded-lg"
+                                    className=" w-full rounded-lg pointer-events-none"
                                     src={obj.image}
                                     alt='projects-image'
                                 />

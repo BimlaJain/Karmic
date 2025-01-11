@@ -26,7 +26,7 @@ const Services = () => {
                                 <img
                                     src={service.image}
                                     alt={service.title}
-                                    className="size-10"
+                                    className="size-10 pointer-events-none"
                                 />
                                 <h3 className="font-bold text-xl text-white lg:pt-5 pt-4 pb-[6px]">
                                     {service.title}
