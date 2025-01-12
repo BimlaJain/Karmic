@@ -5,7 +5,7 @@ import { PROJECTS_LISTS } from '../utils/helper'
 
 const Projects = () => {
     return (
-        <div className='bg-cover bg-center bg-no-repeat bg-whiteImg xl:h-[850px] pt-[150px] sm:pt-[86px] lg:pb-[120px] pb-36' id='projects'>
+        <div className='bg-cover bg-center bg-no-repeat bg-whiteImg xl:h-[820px] pt-[150px] sm:pt-[86px] lg:pb-[120px] md:pb-24 pb-36' id='projects'>
             <div className='container relative'>
                 <div className="absolute xl:top-[-3%] lg:top-[-2%] lg:left-[33%] md:top-[-3%] md:left-[28%] left-[15%] top-[-1%]">
                     <img
