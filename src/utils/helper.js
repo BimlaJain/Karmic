@@ -77,7 +77,8 @@ export const PROJECTS_LISTS = [
         image: "/assets/images/png/projects-img-eight.png",
         title: 'Nubbies'
     },
-]
+];
+
 export const SERVICES_DATA = [
     {
         circle: "/assets/images/png/white-circle.png",
@@ -137,6 +138,13 @@ export const SERVICES_DATA = [
         content: [] ,
     },
 ];
+
+export const KARMIC_IMAGES = [
+    { src: './assets/images/png/karmic-one.png', alt: 'one' },
+    { src: './assets/images/png/karmic-two.png', alt: 'two' },
+    { src: './assets/images/png/karmic-three.png', alt: 'three' },
+];
+
 export const VALUES_DATA = [
     {
         circle: "/assets/images/png/white-circle.png",
@@ -159,5 +167,28 @@ export const VALUES_DATA = [
         description:
             "Trustless and results driven development backed by a portfolio of success. You're the captain of the ship, and the keys are always in your hands.",
         content: [],
+    },
+];
+
+export const SOCIAL_LINKS = [
+    {
+        link: 'https://www.instagram.com/',
+        src: './assets/images/svg/instagram.svg',
+        alt: 'instagram',
+    },
+    {
+        link: 'https://x.com/?lang=en&mx=2',
+        src: './assets/images/svg/twitter.svg',
+        alt: 'twitter',
+    },
+    {
+        link: 'https://www.facebook.com',
+        src: './assets/images/svg/facebook.svg',
+        alt: 'facebook',
+    },
+    {
+        link: 'https://www.youtube.com/',
+        src: './assets/images/svg/youtube.svg',
+        alt: 'youtube',
     },
 ];

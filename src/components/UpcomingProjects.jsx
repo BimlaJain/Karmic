@@ -1,5 +1,6 @@
 import React from 'react';
 import CommonHeading from '../common/CommonHeading';
+import CommonButton from '../common/CommonButton';
 import { UPCOMING_PROJECTS } from '../utils/helper';
 
 
@@ -45,9 +46,7 @@ const UpcomingProjects = () => {
                         </div>
                     ))}
                 </div>
-                <button className="mt-12 px-8 py-3 border flex justify-center mx-auto items-center text-white font-sunflower font-medium text-base rounded-full transition-all duration-700 ease-in-out hover:bg-white hover:text-black">
-                    View All
-                </button>
+                <CommonButton classStyle={`px-8 py-3 border !border-white flex justify-center !mt-6 mx-auto items-center text-white font-sunflower font-medium !text-base rounded-full transition-all duration-700 ease-in-out hover:bg-white hover:text-black`} text={'View All'} />
             </div>
         </div>
     );

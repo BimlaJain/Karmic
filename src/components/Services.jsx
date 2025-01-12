@@ -4,7 +4,7 @@ import CommonHeading from '../common/CommonHeading'
 
 const Services = () => {
     return (
-        <div id='services'>
+        <div id='services' className='-mb-20'>
             <div className='container relative'>
                 <div className="absolute lg:top-[-3%] lg:left-[33%] md:top-[-3%] md:left-[28%] left-[15%] top-[-1%]">
                     <img
@@ -16,9 +16,9 @@ const Services = () => {
                 <CommonHeading
                     text={'Services'}
                 />
-                <div className='flex flex-row flex-wrap -mx-3 xl:pt-[77px] md:pt-12 pt-8'>
+                <div className='flex flex-row max-lg:justify-center flex-wrap -mx-3 xl:pt-[77px] md:pt-12 pt-8'>
                     {SERVICES_DATA.map((service, index) => (
-                        <div key={index} className='lg:w-[33.33%] sm:w-[50%] w-full px-[10.5px] xl:mb-10 lg:mb-7 sm:mb-6 mb-5 relative group'>
+                        <div key={index} className='lg:w-[33.33%] sm:w-[50%] w-full px-[10.5px] xl:mb-5 lg:mb-7 sm:mb-6 mb-5 relative group'>
                             <div className='absolute -top-[18px] xl:-right-1 -right-2 group-hover:opacity-100 opacity-0 transition-opacity duration-700 -z-10'>
                                 <img src={service.circle} alt="circle" className='xl:w-[73px] xl:h-[74px] size-16 shadow-custom-2xl' />
                             </div>
