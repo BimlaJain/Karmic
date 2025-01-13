@@ -5,10 +5,10 @@ import { PROJECTS_LISTS } from '../utils/helper'
 
 const Projects = () => {
     return (
-        <div className='bg-cover bg-center bg-no-repeat bg-whiteImg xl:h-[820px] pt-[150px] sm:pt-[86px] lg:pb-[120px] md:pb-24 pb-36' id='projects'>
+        <div className='bg-cover bg-center bg-no-repeat max-lg:bg-white lg:bg-whiteImg xl:h-[820px] pt-16 sm:pt-[86px] lg:pb-[120px] md:pb-16 pb-12' id='projects'>
             <div className='container'>
                 <div className="relative">
-                    <div className="absolute lg:top-[-36%] md:left-[33%] left-[19%] md:top-[-53%]  top-[-40%]">
+                    <div className="absolute lg:top-[-36%] lg:left-[33%] md:left-[26%] left-[19%] md:top-[-53%]  top-[-40%]">
                         <img
                             src="./assets/images/png/black-heading-line.png"
                             alt="line"

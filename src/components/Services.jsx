@@ -4,7 +4,7 @@ import CommonHeading from '../common/CommonHeading'
 
 const Services = () => {
     return (
-        <div id='services' className='max-sm:-mb-20'>
+        <div id='services'>
             <div className='container'>
                 <div className="relative">
                 <div className="absolute lg:top-[-36%] md:left-[33%] left-[12%] md:top-[-53%]  top-[-40%]">

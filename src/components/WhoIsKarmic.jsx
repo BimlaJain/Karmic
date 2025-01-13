@@ -4,7 +4,7 @@ import { KARMIC_IMAGES } from '../utils/helper';
 
 const Karmic = () => {
     return (
-        <div className='xl:pb-[156px] lg:pb-[120px] sm:pb-24 pb-16 xl:pt-[81px] md:pt-[50px] max-sm:-mt-[60px]'>
+        <div className='xl:pb-[156px] lg:pb-[120px] sm:pb-24 pb-16 xl:pt-[81px] pt-[50px]'>
             <div className="container">
                 <div className="relative">
                 <div className="absolute lg:top-[-36%] md:left-[33%] left-[22%] md:top-[-53%] top-[-40%]">
