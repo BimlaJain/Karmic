@@ -41,7 +41,7 @@ const Header = () => {
                             {NAV_DATA_LINK.map((obj, index) => (
                                 <a onClick={toggleMenu}
                                     key={index}
-                                    className="font-normal font-sunflower hover:font-bold transition-all duration-500 text-base leading-5 text-white"
+                                    className="font-normal font-sunflower hover:scale-110 transition-all duration-500 text-base leading-5 text-white"
                                     href={obj.href}
                                 >
                                     {obj.data}
