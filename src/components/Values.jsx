@@ -22,7 +22,7 @@ const Values = () => {
                             <div className='absolute -top-[18px] xl:-right-1 -right-2 group-hover:opacity-100 opacity-0 transition-opacity duration-700 -z-10'>
                                 <img src={service.circle} alt="circle" className='xl:w-[73px] xl:h-[74px] size-16' />
                             </div>
-                            <div className="md:max-w-[369px] lg:min-h-[276px] sm:min-h-[256px] min-h-[200px] h-full xl:p-5 p-4 border border-transparent rounded-xl hover:shadow-custom-xl hover:border hover:border-dusk-black hover:bg-white/10 hover:backdrop-blur-lg duration-700 z-20">
+                            <div className="md:max-w-[369px] lg:min-h-[276px] sm:min-h-[256px] min-h-[200px] h-full xl:p-5 p-4 rounded-xl hover:shadow-custom-xl border border-dusk-black hover:bg-white/10 hover:backdrop-blur-lg duration-700 z-20">
                                 <img
                                     src={service.image}
                                     alt={service.title}

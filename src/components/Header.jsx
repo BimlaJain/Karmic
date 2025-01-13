@@ -43,7 +43,7 @@ const Header = () => {
                                     className="font-normal font-sunflower hover:scale-110 transition-all duration-500 text-base leading-5 text-white"
                                     href={obj.link}
                                 >
-                                    {obj.data}
+                                    {obj.title}
                                 </a>
                             ))}
                         </div>

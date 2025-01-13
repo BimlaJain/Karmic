@@ -1,8 +1,8 @@
 export const NAV_DATA_LINK = [
-    { data: 'Home', link: '#home' },
-    { data: 'Services', link: '#services' },
-    { data: 'Projects', link: '#projects' },
-    { data: 'About', link: '#about' },
+    { title: 'Home', link: '#home' },
+    { title: 'Services', link: '#services' },
+    { title: 'Projects', link: '#projects' },
+    { title: 'About', link: '#about' },
 ];
 
 export const UPCOMING_PROJECTS = [
@@ -140,9 +140,9 @@ export const SERVICES_DATA = [
 ];
 
 export const KARMIC_IMAGES = [
-    { src: './assets/images/png/karmic-one.png', alt: 'one' },
-    { src: './assets/images/png/karmic-two.png', alt: 'two' },
-    { src: './assets/images/png/karmic-three.png', alt: 'three' },
+    { image: './assets/images/png/karmic-one.png', alt: 'one' },
+    { image: './assets/images/png/karmic-two.png', alt: 'two' },
+    { image: './assets/images/png/karmic-three.png', alt: 'three' },
 ];
 
 export const VALUES_DATA = [
@@ -171,22 +171,22 @@ export const VALUES_DATA = [
 export const SOCIAL_LINKS = [
     {
         link: 'https://www.instagram.com/',
-        src: './assets/images/svg/instagram.svg',
+        image: './assets/images/svg/instagram.svg',
         alt: 'instagram',
     },
     {
         link: 'https://x.com/?lang=en&mx=2',
-        src: './assets/images/svg/twitter.svg',
+        image: './assets/images/svg/twitter.svg',
         alt: 'twitter',
     },
     {
         link: 'https://www.facebook.com',
-        src: './assets/images/svg/facebook.svg',
+        image: './assets/images/svg/facebook.svg',
         alt: 'facebook',
     },
     {
         link: 'https://www.youtube.com/',
-        src: './assets/images/svg/youtube.svg',
+        image: './assets/images/svg/youtube.svg',
         alt: 'youtube',
     },
 ];

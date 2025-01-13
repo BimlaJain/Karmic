@@ -6,11 +6,13 @@ const Footer = () => {
     return (
         <div id='about' className='lg:pt-[60px] md:pt-8 pt-6'>
             <div className="container">
-                <img
-                    src="./assets/images/png/footer-logo.png"
-                    alt="footer-logo"
-                    className='md:pb-[69px] pb-9 flex mx-auto max-md:w-[160px]'
-                />
+                <a href="/">
+                    <img
+                        src="./assets/images/png/footer-logo.png"
+                        alt="footer-logo"
+                        className='md:pb-[69px] pb-9 flex mx-auto max-md:w-[160px]'
+                    />
+                </a>
                 <div className="flex items-center justify-center gap-6 pb-4">
                     {SOCIAL_LINKS.map((link, index) => (
                         <a
@@ -20,7 +22,7 @@ const Footer = () => {
                             className="hover:scale-110 transition-all duration-300"
                             rel="noreferrer"
                         >
-                            <img src={link.src} alt={link.alt} />
+                            <img src={link.image} alt={link.alt} />
                         </a>
                     ))}
                 </div>

@@ -1,12 +1,11 @@
 import React from 'react'
 import Description from '../common/Description'
 import CommonButton from '../common/CommonButton'
-import { ButtonArrow} from '../utils/icons'
 
 const Hero = () => {
     return (
         <div className='lg:bg-hero-layer bg-no-repeat max-lg:bg-center bg-cover lg:min-h-[748px] relative' id='home'>
-            <div className='container'>
+            <div className='container '>
                 <div className='lg:flex-row flex-col flex justify-between lg:pt-[143px] md:pt-14 pt-10 gap-5'>
                     <div className='lg:w-[570px] w-full flex flex-col justify-center'>
                         <div className='flex flex-col justify-center max-lg:items-center'>

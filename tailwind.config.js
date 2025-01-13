@@ -18,6 +18,7 @@ module.exports = {
       colors: {
         'light-gray': "#3B3B3B",
         'dark-gray': "#4d4d4d",
+        'dusk-black': "#FFFFFF1A",
       },
       fontFamily: {
         'sunflower': "'Sunflower', sans-serif",
