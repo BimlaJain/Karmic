@@ -5,8 +5,9 @@ import { KARMIC_IMAGES } from '../utils/helper';
 const Karmic = () => {
     return (
         <div className='xl:pb-[156px] lg:pb-[120px] sm:pb-24 pb-16 xl:pt-[81px] md:pt-[50px] max-sm:-mt-[60px]'>
-            <div className="container relative">
-                <div className="absolute lg:top-[-4%] lg:left-[33%] md:top-[-3%] md:left-[28%] left-[15%] top-[-2%]">
+            <div className="container">
+                <div className="relative">
+                <div className="absolute lg:top-[-36%] md:left-[33%] left-[22%] md:top-[-53%] top-[-40%]">
                     <img
                         src="./assets/images/png/heading-line.png"
                         alt="line"
@@ -17,6 +18,7 @@ const Karmic = () => {
                     text={'Who is karmic?'}
                     classStyle={'!pb-3'}
                 />
+                </div>
                 <p className='text-base max-w-[532px] mx-auto text-center font-space leading-custom-2xl pb-[2px] font-normal text-white pt-2'>
                     We are builders, innovators, and believers.
                 </p>

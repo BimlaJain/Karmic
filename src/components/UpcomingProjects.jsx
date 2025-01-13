@@ -9,8 +9,9 @@ const UpcomingProjects = () => {
 
     return (
         <div id='upcomingprojects' className="lg:pt-24 md:pt-20 pt-16 xl:pb-[136px] lg:pb-24 md:pb-20 pb-16">
-            <div className="container relative">
-                <div className="absolute lg:top-[-4%] lg:left-[33%] md:top-[-3%] md:left-[28%] left-[15%] top-[-1%]">
+            <div className="container">
+                <div className="relative">
+                <div className="absolute lg:top-[-21%] md:left-[33%] left-[19%] md:top-[-30%]  top-[-28%]">
                     <img
                         src="./assets/images/png/heading-line.png"
                         alt="line"
@@ -21,6 +22,7 @@ const UpcomingProjects = () => {
                     text={'Upcoming Projects'}
                     classStyle={'lg:!pb-12 md:!pb-10 !pb-8'}
                 />
+                </div>
                 <div className="flex max-lg:flex-wrap justify-center md:gap-[29px] gap-5">
                     {UPCOMING_PROJECTS.map((project) => (
                         <div
@@ -46,7 +48,7 @@ const UpcomingProjects = () => {
                         </div>
                     ))}
                 </div>
-                <CommonButton classStyle={`px-8 py-3 border !border-white flex justify-center !mt-6 mx-auto items-center text-white font-sunflower font-medium !text-base rounded-full transition-all duration-700 ease-in-out hover:bg-white hover:text-black`} text={'View All'} />
+                <CommonButton classStyle={`px-8 py-[9px] border !border-white flex justify-center !mt-6 mx-auto items-center text-white font-sunflower font-medium !text-base rounded-full transition-all duration-700 ease-in-out hover:bg-white hover:text-black`} text={'View All'} />
             </div>
         </div>
     );

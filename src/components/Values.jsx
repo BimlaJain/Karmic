@@ -5,8 +5,9 @@ import CommonHeading from '../common/CommonHeading'
 const Values = () => {
     return (
         <>
-            <div className='container relative'>
-                <div className="absolute lg:top-[-4%] lg:left-[33%] md:top-[-3%] md:left-[28%] left-[15%] top-[-2%]">
+            <div className='container'>
+                <div className="relative">
+                <div className="absolute lg:top-[-36%] lg:left-[33%] md:left-[28%] left-[14%] md:top-[-53%]  top-[-40%]">
                     <img
                         src="./assets/images/png/heading-line.png"
                         alt="line"
@@ -16,6 +17,7 @@ const Values = () => {
                 <CommonHeading
                     text={'values'}
                 />
+                </div>
                 <div className='flex flex-row max-lg:justify-center flex-wrap -mx-3 xl:pt-[77px] md:pt-12 pt-8'>
                     {VALUES_DATA.map((service, index) => (
                         <div key={index} className='lg:w-[33.33%] sm:w-[50%] w-full px-[10.5px] lg:mb-10 sm:mb-6 mb-5 relative group'>

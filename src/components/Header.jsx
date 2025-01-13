@@ -72,8 +72,8 @@ const Header = () => {
                                     <a onClick={toggleMenu}
                                         key={index}
                                         className="font-normal hover:font-bold transition-all duration-500 text-base leading-5 text-white"
-                                        href={obj.href}>
-                                        {obj.data}
+                                        href={obj.link}>
+                                        {obj.title}
                                     </a>
                                 ))}
                             </div>

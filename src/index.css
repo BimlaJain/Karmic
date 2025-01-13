@@ -8,4 +8,6 @@
  .bg-img{
     background-image: url("../public/assets/images/png/Home-bg.png");
  }
-
+html , body{
+   scroll-behavior: smooth;
+}

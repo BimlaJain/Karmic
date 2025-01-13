@@ -6,17 +6,19 @@ import { PROJECTS_LISTS } from '../utils/helper'
 const Projects = () => {
     return (
         <div className='bg-cover bg-center bg-no-repeat bg-whiteImg xl:h-[820px] pt-[150px] sm:pt-[86px] lg:pb-[120px] md:pb-24 pb-36' id='projects'>
-            <div className='container relative'>
-                <div className="absolute xl:top-[-3%] lg:top-[-2%] lg:left-[33%] md:top-[-3%] md:left-[28%] left-[15%] top-[-1%]">
-                    <img
-                        src="./assets/images/png/black-heading-line.png"
-                        alt="line"
-                        className="md:w-[344px] w-[250px] pointer-events-none"
-                    />
+            <div className='container'>
+                <div className="relative">
+                    <div className="absolute lg:top-[-36%] md:left-[33%] left-[19%] md:top-[-53%]  top-[-40%]">
+                        <img
+                            src="./assets/images/png/black-heading-line.png"
+                            alt="line"
+                            className="md:w-[344px] w-[250px] pointer-events-none"
+                        />
+                    </div>
+                    <CommonHeading
+                        text={'projects'}
+                        classStyle={'!md:pb-10 !text-black'} />  
                 </div>
-                <CommonHeading
-                    text={'projects'}
-                    classStyle={'!md:pb-10 !text-black'}/>  
                 <p className='text-base max-w-[532px] mx-auto text-center pt-7 leading-6 font-normal font-space max-lg:pt-4'>Id nam massa sit ut purus tortor est ultrices nunc. Ipsum, nibh egestas vehicula tellus. Molestie adipiscing diam nibh lectus. Magna id nisl quis vestibulum rhoncus.</p>
                 <div className='flex flex-wrap sm:pt-[22px] justify-center'>
                     {PROJECTS_LISTS.map((obj, i) => (
@@ -43,7 +45,7 @@ const Projects = () => {
                     ))}
                 </div>
                 <div className='flex justify-center pt-14 max-lg:pt-10 max-md:pt-5'>
-                    <CommonButton classStyle={`px-8 py-3 border border-black flex justify-center mx-auto items-center  text-black font-sunflower font-medium !text-base rounded-full transition-all duration-700 ease-in-out hover:bg-black hover:text-white`} text={'View All'} />
+                    <CommonButton classStyle={`px-8 py-[9px] border border-black flex justify-center mx-auto items-center  text-black font-sunflower font-medium !text-base rounded-full transition-all duration-700 ease-in-out hover:bg-black hover:text-white`} text={'View All'} />
                 </div>
             </div>
         </div>
