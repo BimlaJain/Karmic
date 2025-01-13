@@ -17,10 +17,10 @@ const Karmic = () => {
                     text={'Who is karmic?'}
                     classStyle={'!pb-3'}
                 />
-                <p className='text-base max-w-[532px] mx-auto text-center leading-custom-2xl pb-[2px] font-normal text-white pt-2'>
+                <p className='text-base max-w-[532px] mx-auto text-center font-space leading-custom-2xl pb-[2px] font-normal text-white pt-2'>
                     We are builders, innovators, and believers.
                 </p>
-                <p className='text-base max-w-[532px] mx-auto text-center leading-custom-2xl font-normal text-white'>
+                <p className='text-base max-w-[532px] mx-auto text-center font-space leading-custom-2xl font-normal text-white'>
                     We believe in a future that rests in your hands, and yours alone. The future is decentralized, The future is web3.
                 </p>
                 <div className="flex max-xl:flex-wrap pt-6 max-xl:justify-center">

@@ -28,11 +28,11 @@ const Services = () => {
                                     alt={service.title}
                                     className="size-10 pointer-events-none"
                                 />
-                                <h3 className="font-bold text-xl text-white lg:pt-5 pt-4 pb-[6px]">
+                                <h3 className="font-bold text-xl text-white font-space lg:pt-5 pt-4 pb-[6px]">
                                     {service.title}
                                 </h3>
                                 {service.description && (
-                                    <p className="font-normal text-base text-white xl:max-w-[329px]">
+                                    <p className="font-normal text-base text-white font-space xl:max-w-[329px]">
                                         {service.description}
                                     </p>
                                 )}
