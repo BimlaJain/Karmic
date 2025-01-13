@@ -15,8 +15,8 @@ const Hero = () => {
                             </h1>
                             <Description classStyle={'lg:max-w-[495px] pt-2 max-lg:text-center !leading-custom-2xl'} text={'Vulputate tristique habitant neque, accumsan. Vitae ultrices nulla erat nibh aliquam, quis tempus volutpat arcu. Leo convallis luctus dis malesuada turpis non consequat ac.'} />
                             <div className='flex  sm:pt-10 pt-5 sm:gap-8 gap-5'>
-                                <CommonButton classStyle="!py-[9.2px] !px-[18px] bg-white !text-black flex items-center gap-[10px] group transition-all duration-500" text="Get Started" customClass="!block fill-black group-hover:translate-x-0.5 transition-all duration-500" />
-                                <CommonButton text="Read More" classStyle="!py-[9.2px] !px-[30px] font-thin bg-transparent text-white border border-white hover:bg-white hover:text-black transition-all duration-500" />
+                                <CommonButton classStyle="!py-[9.2px] !px-[18px] bg-white !text-black flex items-center font-space gap-[10px] group transition-all duration-500" text="Get Started" customClass="!block fill-black group-hover:translate-x-0.5 transition-all duration-500" />
+                                <CommonButton text="Read More" classStyle="!py-[9.2px] !px-[30px] font-thin font-space bg-transparent text-white border border-white hover:bg-white hover:text-black transition-all duration-500" />
                             </div>
 
                         </div>
