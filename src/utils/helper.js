@@ -1,8 +1,8 @@
 export const NAV_DATA_LINK = [
-    { data: 'Home', href: '#home' },
-    { data: 'Services', href: '#services' },
-    { data: 'Projects', href: '#projects' },
-    { data: 'About', href: '#about' },
+    { data: 'Home', link: '#home' },
+    { data: 'Services', link: '#services' },
+    { data: 'Projects', link: '#projects' },
+    { data: 'About', link: '#about' },
 ];
 
 export const UPCOMING_PROJECTS = [
@@ -152,7 +152,6 @@ export const VALUES_DATA = [
         title: "W3 ",
         description:
             "Not your average degens. Karmic is lead by a team of Industry professionals with extensive backgrounds in web3 and web2. We are actively involved in all that we do. Boots on the ground. We know the ins and outs of the space, because we are building it. ",
-        content: [],
     },
     {
         circle: "/assets/images/png/white-circle.png",
@@ -166,7 +165,6 @@ export const VALUES_DATA = [
         title: "Trust",
         description:
             "Trustless and results driven development backed by a portfolio of success. You're the captain of the ship, and the keys are always in your hands.",
-        content: [],
     },
 ];
 

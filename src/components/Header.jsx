@@ -11,7 +11,6 @@ const Header = () => {
     };
 
     useEffect(() => {
-
         const toggleMenu = () => {
             if (window.innerWidth < 1024) {
                 document.body.style.overflow = !isMenuOpen ? "" : "hidden";
@@ -42,7 +41,7 @@ const Header = () => {
                                 <a onClick={toggleMenu}
                                     key={index}
                                     className="font-normal font-sunflower hover:scale-110 transition-all duration-500 text-base leading-5 text-white"
-                                    href={obj.href}
+                                    href={obj.link}
                                 >
                                     {obj.data}
                                 </a>
