@@ -11,13 +11,11 @@ const Karmic = () => {
                     <img
                         src="./assets/images/png/heading-line.png"
                         alt="line"
-                        className="md:w-[344px] w-[250px]"
-                    />
+                        className="md:w-[344px] w-[250px]"/>
                 </div>
                 <CommonHeading
                     text={'Who is karmic?'}
-                    classStyle={'!pb-3'}
-                />
+                    classStyle={'!pb-3'}/>
                 </div>
                 <p className='text-base max-w-[532px] mx-auto text-center font-space leading-custom-2xl pb-[2px] font-normal text-white pt-2'>
                     We are builders, innovators, and believers.
@@ -31,8 +29,7 @@ const Karmic = () => {
                             key={index}
                             className='max-w-[369px] max-xl:max-w-[300px] max-lg:max-w-[329px] pointer-events-none'
                             src={image.image}
-                            alt={image.alt}
-                        />
+                            alt={image.alt}/>
                     ))}
                 </div>
             </div>
