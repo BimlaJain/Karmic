@@ -25,7 +25,7 @@ const Projects = () => {
                             className={`w-3/12 flex max-xl:w-4/12 max-md:w-6/12 max-sm:w-full px-2 pt-6`}
                         >
                             <div
-                                className={` mx-auto hover:scale-125 hover:!z-20 overflow-hidden group transition-all relative duration-300 cursor-pointer flex w-full rounded-lg justify-center  ${i === 0 ? '' : ''
+                                className={` mx-auto hover:sm:scale-125 hover:scale-110 hover:!z-20 overflow-hidden group transition-all relative duration-300 cursor-pointer flex w-full rounded-lg justify-center  ${i === 0 ? '' : ''
                                     }`}
                             >
                                 <img
@@ -33,7 +33,7 @@ const Projects = () => {
                                     src={obj.image}
                                     alt='projects-image'
                                 />
-                                <div className='absolute min-h-[47px] flex justify-center items-center shadow-shadow-2xl bg-dark-gray transition-all duration-300 w-full group-hover:bottom-0 bottom-[-50%]'>
+                                <div className='absolute min-h-[47px] font-sunflower flex justify-center items-center shadow-shadow-2xl bg-dark-gray transition-all duration-300 w-full group-hover:bottom-0 bottom-[-50%]'>
                                     <p className='text-white text-base leading-5 sm:text-xl font-bold'>
                                         {obj.title}
                                     </p>
